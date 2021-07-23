@@ -1,11 +1,16 @@
 ﻿{
-	"FriendlyName": "Mod Template",
-	"Author": "You",
-	"Contact": "N/A",
-	"ModuleFileName": "Mod.Template.dll",
-	"Dependencies": [],
+	"FriendlyName": "Track Music",
+	"Description": "Include music with your levels that will play for other users of the mod.",
+	"Author": "Corecii",
+	"Contact": "corecii@corecii.com",
+	"Porter": "Reherc",
+	"PorterContact": "Github: @REHERC",
+	"ModuleFileName": "Distance.TrackMusic.dll",
+	"Dependencies": [
+		"Mono.Windows.Forms.dll"
+	],
 	"RequiredGSLs": [
-		"com.github.reherc/Centrifuge.Distance"
+	"com.github.reherc/Centrifuge.Distance"
 	],
 	"SkipLoad": false,
 	"Priority": 10
